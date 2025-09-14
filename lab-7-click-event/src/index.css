@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.list-category {
+    font-size: 2.5em;
+    background-color: rgba(3, 145, 3, 0.808);
+    color:white;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.list-items {
+    text-align: center;
+    font-size: 1.5em;
+
+}

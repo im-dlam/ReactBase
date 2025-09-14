@@ -1,0 +1,18 @@
+
+.welcome-message {
+  border:none;
+  padding:10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blue;
+  color:white;
+  border-radius:8px;
+}
+
+.login-message {
+  border:none;
+  padding:10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(197, 9, 9, 0.712);
+  color:white;
+  border-radius:8px;
+}
