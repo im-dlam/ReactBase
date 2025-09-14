@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial;
+}
+
+.color-picker-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.color-display {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: 0.25s ease;
+}
+.color-display p {
+    font-size: 1.5rem;
+    color: hsl(0,0%, 20%);
+    text-align: center;
+}
+input[type="color"] {
+    height: 40px;
+    width: 100px;
+    border:2px solid hsl(0,0%, 80%);
+    border-width: 0;
+    border-radius: 10px;
+    user-select: none;
+}
+
+label {
+    font-size: 1.5rem;
+    text-align: center;
+
+
+}
