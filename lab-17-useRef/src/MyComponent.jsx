@@ -11,7 +11,7 @@ function MyComponent(){
     }
     return (
         <div>
-            <button onClick={handleClick}>Click me</button>
+            <button onClick={handleClick}>Click me</button> 
             <input ref={inputRef} />
         </div>
     )
